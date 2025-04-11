@@ -8,7 +8,7 @@ addIcon
     @edit="handleTabsEdit"
   >
     <template #add-icon>
-      <el-icon><Select /></el-icon>
+      <el-icon><Plus /></el-icon>
     </template>
     <el-tab-pane
       v-for="item in editableTabs"
